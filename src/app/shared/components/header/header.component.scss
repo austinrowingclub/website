@@ -3,6 +3,20 @@ header {
   .navbar {
     padding: 1rem 1rem;
 
+    .dropdown-menu {
+      background-color:#eef2f5;
+      opacity: 1;
+    }
+    
+    .dropdown-header {
+      font-weight: bold;
+      color: black;
+    }
+
+    .dropdown-item {
+      color:#193667;
+    }
+
     .navbar-toggler {
       border: 0;
       padding: 0;
@@ -42,7 +56,7 @@ header {
         }
       }
     }
-
+    
     @media (min-width: 992px) {
       padding: 1rem 1rem;
     }

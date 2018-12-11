@@ -1,0 +1,50 @@
+header {
+
+  .navbar {
+    padding: 1rem 1rem;
+
+    .navbar-toggler {
+      border: 0;
+      padding: 0;
+    }
+
+    .nav-item {
+
+      .nav-link {
+        color: #1F3362;
+        text-transform: uppercase;
+
+        @media (min-width: 992px) {
+          padding-right: 50px;
+          padding-left: 50px;
+        }
+      }
+    }
+
+    .secondary-nav-items {
+      
+      .btn {
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      
+      @media (min-width: 992px) {
+        border-left: 1px solid #DBDBDB;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+
+        .btn {
+          margin-left: 20px;
+          margin-bottom: 0;
+          width: auto;
+        }
+      }
+    }
+
+    @media (min-width: 992px) {
+      padding: 1rem 1rem;
+    }
+  }
+}

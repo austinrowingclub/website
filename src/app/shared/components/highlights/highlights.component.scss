@@ -1,0 +1,14 @@
+.highlights-container {
+  background-color: #1F3362;
+  margin-bottom: 20px;
+  color: #FFF;
+
+  .img-section {
+    background-image: url("http://wowslider.com/sliders/demo-93/data1/images/sunset.jpg");
+    background-size: cover;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 60px;
+  }
+}

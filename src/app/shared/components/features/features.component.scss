@@ -1,0 +1,10 @@
+.features-container {
+
+  .img-wrapper {
+    max-height: 100px;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 60px;
+  }
+}

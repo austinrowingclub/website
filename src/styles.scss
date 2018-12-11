@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+.content-section {
+  padding: 20px 0;
+
+  &.large {
+    @media (min-width: 768px) {
+      padding: 40px 0;
+    }
+
+    @media (min-width: 992px) {
+      padding: 100px 0;
+    }
+  }
+}
+
+.align-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 60px;
+  }
+}
+
+p {
+  font-size: 14px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 18px;
+  }
+}
+
+.btn {
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-transform: uppercase;
+
+  &.btn-secondary {
+    background-color: #FFF;
+    border-color: #1F3362;
+    color: #1F3362;
+  }
+
+  &.btn-tertiary {
+    background-color: #8D2426;
+    border-color: #8D2426;
+    color: #FFF;
+  }
+}

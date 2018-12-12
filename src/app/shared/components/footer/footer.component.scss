@@ -1,0 +1,52 @@
+@import '../../../_variables.scss';
+
+footer {
+background-color: $primary-color;
+color: white;
+padding: 50px 100px 50px 100px;
+}
+
+hr.color {  
+    border-top: .5px solid #D8D8D8;
+    opacity: .3;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    white-space: nowrap;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    white-space: nowrap;
+  }
+  
+  /* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+img { 
+    width: 100%; 
+}

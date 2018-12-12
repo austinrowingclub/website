@@ -1,4 +1,4 @@
-@import '../../../_variables.scss';
+@import '../../../../variables';
 
 footer {
 background-color: $primary-color;
@@ -9,34 +9,6 @@ padding: 50px 100px 50px 100px;
 hr.color {  
     border-top: .5px solid #D8D8D8;
     opacity: .3;
-}
-
-.column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    white-space: nowrap;
-  }
-  
-  /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.column2 {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    white-space: nowrap;
-  }
-  
-  /* Clear floats after the columns */
-.row2:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 p {

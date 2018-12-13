@@ -1,0 +1,32 @@
+@import '../../../../variables';
+
+.card {
+    background-color: $ui-5;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+    background: $ui-3;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+  }
+
+  .schedule-text{ 
+      color: $text-3;
+  }
+
+  .card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}

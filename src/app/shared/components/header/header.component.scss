@@ -1,20 +1,22 @@
+@import '../../../../variables';
+
 header {
 
   .navbar {
     padding: 1rem 1rem;
 
     .dropdown-menu {
-      background-color:#eef2f5;
+      background-color:$ui-5;
       opacity: 1;
     }
     
     .dropdown-header {
       font-weight: bolder;
-      color: black;
+      color: $text-1;
     }
 
     .dropdown-item {
-      color:#193667;
+      color: $text-2;
     }
 
     .navbar-toggler {
@@ -25,7 +27,7 @@ header {
     .nav-item {
 
       .nav-link {
-        color: #1F3362;
+        color: $text-2;
         text-transform: uppercase;
 
         @media (min-width: 992px) {
@@ -51,7 +53,7 @@ header {
       }
       
       @media (min-width: 992px) {
-        border-left: 1px solid #DBDBDB;
+        border-left: 1px solid $ui-2;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;

@@ -1,11 +1,13 @@
+@import '../../../../variables';
+
 .banner-container {
   background-image: url("http://wowslider.com/sliders/demo-93/data1/images/sunset.jpg");
   background-size: cover;
   padding: 20px 0 10px;
   
   .banner-content {
-    background-color: rgba(173, 216, 230, .5);
-    color: #FFF;
+    background-color: $brand-4;
+    color: $text-4;
     margin: 0 auto;
     max-width: 85%;
 

@@ -1,7 +1,9 @@
+@import '../../../../variables';
+
 .highlights-container {
-  background-color: #1F3362;
+  background-color: $brand-1;
   margin-bottom: 20px;
-  color: #FFF;
+  color: $text-4;
 
   .img-section {
     background-image: url("http://wowslider.com/sliders/demo-93/data1/images/sunset.jpg");

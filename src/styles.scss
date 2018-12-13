@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import 'variables';
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -56,20 +57,20 @@ p {
   text-transform: uppercase;
 
   &.btn-secondary {
-    background-color: #FFF;
-    border-color: #1F3362;
-    color: #1F3362;
+    background-color: $ui-1;
+    border-color: $ui-6;
+    color: $brand-1;
   }
 
   &.btn-tertiary {
-    background-color: #8D2426;
-    border-color: #8D2426;
-    color: #FFF;
+    background-color: $brand-2;
+    border-color: $brand-2;
+    color: $text-4;
   }
 }
 
 hr.color {  
-  border-top: .5px solid #D8D8D8;
+  border-top: .5px solid $ui-2;
   opacity: .3;
   margin-bottom: 20px;
 }

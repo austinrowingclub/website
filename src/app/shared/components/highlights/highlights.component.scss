@@ -8,6 +8,13 @@
   .img-section {
     background-image: url("http://wowslider.com/sliders/demo-93/data1/images/sunset.jpg");
     background-size: cover;
+    position: relative;
+
+    span {
+      border: 10px solid rgba(255, 255, 255, .70);
+      position: absolute;
+      top: 30px; right: 30px; bottom: 30px; left: 30px;
+    }
   }
 
   @media (min-width: 992px) {

@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
 @import 'variables';
 
 body {
@@ -66,6 +66,10 @@ p {
     background-color: $brand-2;
     border-color: $brand-2;
     color: $text-4;
+  }
+
+  @media (min-width: 992px) {
+    padding: 10px 40px 12px;
   }
 }
 

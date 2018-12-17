@@ -1,32 +1,50 @@
 @import '../../../../variables';
 
-.card {
-    background-color: $ui-5;
-}
+.rowing-programs-container {
 
-.row.vdivide [class*='col-']:not(:last-child):after {
-    background: $ui-3;
-    width: 1px;
-    content: "";
-    display:block;
-    position: absolute;
-    top:0;
-    bottom: 0;
-    right: 0;
-    min-height: 70px;
-  }
+    .card {
+        background-color: $ui-5;
+        border: 0px;
+        border-radius: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
 
-  .schedule-text{ 
-      color: $text-3;
-  }
+        .card-title {
+            font-weight: bold;
+        }
 
-  .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-}
+        .card-options {
+            margin-top: 40px;
+            margin-bottom: 40px;
 
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+            .option {
+                border-left: 1px solid $ui-3;
+                min-height: 70px;
+
+                &:last-child {
+                    border-right: 1px solid $ui-3;    
+                }
+            }
+
+            .option-title {
+                color: $text-3;
+                font-size: 14px;
+            }
+
+            .option-text {
+                font-size: 32px;
+            }
+        }
+
+        .schedule-text-alt { 
+            color: $text-3;
+        }
+
+        @media (min-width: 992px) {
+            padding-top: 30px;
+            padding-bottom: 40px;
+            margin-bottom: 30px;
+        }
+    }
 }

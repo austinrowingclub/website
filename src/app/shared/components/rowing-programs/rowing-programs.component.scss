@@ -1,0 +1,57 @@
+@import '../../../../variables';
+
+.rowing-programs-container {
+
+    .card {
+        background-color: $ui-5;
+        border: 0px;
+        border-radius: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        .card-options {
+            margin-top: 40px;
+            margin-bottom: 40px;
+
+            .option {
+                min-height: 70px;
+
+                @media (min-width: 992px) {
+                    border-left: 1px solid $ui-3;
+
+                    &:last-child {
+                        border-right: 1px solid $ui-3;    
+                    }
+                }
+            }
+
+            .option-title {
+                color: $text-3;
+                font-size: 14px;
+            }
+
+            .option-text {
+                font-size: 32px;
+            }
+        }
+
+        .btn {
+            margin-bottom: 20px;
+        }
+
+        .schedule-text-alt { 
+            color: $text-3;
+        }
+
+        @media (min-width: 992px) {
+            padding-top: 30px;
+            padding-bottom: 40px;
+            margin-bottom: 30px;
+        }
+    }
+}

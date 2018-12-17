@@ -6,12 +6,13 @@ import { HighlightsComponent } from './highlights/highlights.component';
 import { FeaturesComponent } from './features/features.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
+import { RowingProgramsComponent } from './rowing-programs/rowing-programs.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [HeaderComponent, HeroCarouselComponent, HighlightsComponent, FeaturesComponent, BannerComponent, FooterComponent],
-  exports : [HeaderComponent, HeroCarouselComponent, HighlightsComponent, FeaturesComponent, BannerComponent, FooterComponent]
+  declarations: [HeaderComponent, HeroCarouselComponent, HighlightsComponent, FeaturesComponent, BannerComponent, FooterComponent, RowingProgramsComponent],
+  exports : [HeaderComponent, HeroCarouselComponent, HighlightsComponent, FeaturesComponent, BannerComponent, FooterComponent, RowingProgramsComponent]
 })
 export class ComponentsModule { }

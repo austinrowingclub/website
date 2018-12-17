@@ -19,11 +19,14 @@
             margin-bottom: 40px;
 
             .option {
-                border-left: 1px solid $ui-3;
                 min-height: 70px;
 
-                &:last-child {
-                    border-right: 1px solid $ui-3;    
+                @media (min-width: 992px) {
+                    border-left: 1px solid $ui-3;
+
+                    &:last-child {
+                        border-right: 1px solid $ui-3;    
+                    }
                 }
             }
 
@@ -35,6 +38,10 @@
             .option-text {
                 font-size: 32px;
             }
+        }
+
+        .btn {
+            margin-bottom: 20px;
         }
 
         .schedule-text-alt { 

@@ -6,6 +6,7 @@ import { ComponentsModule } from './shared/components/components.module';
 import { HomeModule } from './home/home.module';
 import { ProgramsModule } from './programs/programs.module';
 import { SharedModule } from './shared/shared.module';
+import { ContentModule} from './content/content.module';
 
 import { AppComponent } from './app.component';
 
@@ -19,7 +20,8 @@ import { AppComponent } from './app.component';
     ComponentsModule,
     HomeModule,
     ProgramsModule,
-    SharedModule
+    SharedModule, 
+    ContentModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,7 +9,20 @@ footer {
         font-size: 14px;
     }
 
+    h5 {
+        text-transform: uppercase;
+      }
+
     p {
         font-size: 12px;
     }
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.fa {
+    color: white;
+    padding-right: 35px;
 }

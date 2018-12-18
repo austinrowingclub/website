@@ -1,3 +1,4 @@
+
 <div class="highlights-container">
   <div class="container-fluid">
     <div class="row">
@@ -5,11 +6,27 @@
         <div class="content-section large">
           <h4>Contact Us</h4>
           <p>Many people has the notion that enlightenment is one state. Many also believe that when it is attained, a person is forever in that state.</p>
-          
-          <a class="btn btn-tertiary" href="#">SUBMIT</a>
+          <form>
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" class="form-control" id="fullName" aria-describedby="Full Name">
+            </div>
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input type="text" class="form-control" id="company">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-tertiary">Submit</button>
+          </form>
         </div>
       </div>
-      <div class="img-section col-12 col-md-6">
+      <div class="col-12 col-md-6">
+        <agm-map [latitude]="lat" [longitude]="lng">
+          <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+        </agm-map>
       </div>
     </div>
   </div>

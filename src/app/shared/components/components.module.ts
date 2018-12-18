@@ -8,9 +8,14 @@ import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
+import { AgmCoreModule } from '@agm/core';
+
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'YOUR_KEY'
+    }),
   ],
   declarations: [HeaderComponent, HeroCarouselComponent, HighlightsComponent, FeaturesComponent, BannerComponent, FooterComponent, ContactUsComponent],
   exports : [HeaderComponent, HeroCarouselComponent, HighlightsComponent, FeaturesComponent, BannerComponent, FooterComponent, ContactUsComponent]

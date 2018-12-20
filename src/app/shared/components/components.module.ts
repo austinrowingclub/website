@@ -14,7 +14,7 @@ import { AgmCoreModule } from '@agm/core';
   imports: [
     CommonModule,
     AgmCoreModule.forRoot({
-      apiKey: 'YOUR_KEY'
+      apiKey: 'AIzaSyD8Ucu0vpHU-baIW5vGrn1ICVtKcdkuV-E'
     }),
   ],
   declarations: [HeaderComponent, HeroCarouselComponent, HighlightsComponent, FeaturesComponent, BannerComponent, FooterComponent, ContactUsComponent],
